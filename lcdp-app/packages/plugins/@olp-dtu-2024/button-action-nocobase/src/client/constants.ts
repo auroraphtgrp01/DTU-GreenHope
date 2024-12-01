@@ -1,3 +1,3 @@
 // constants.ts
-export const BlockName = 'Action Config';
-export const BlockNameLowerCase = BlockName.toLowerCase();
+export const BlockName = 'Button Action';
+export const BlockNameLowercase = BlockName.toLowerCase();
