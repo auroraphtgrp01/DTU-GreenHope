@@ -1,6 +1,6 @@
 import { Plugin } from '@nocobase/client';
 
-export class QrDonateClient extends Plugin {
+export class VietqrNocobaseClient extends Plugin {
   async afterAdd() {
     // await this.app.pm.add()
   }
@@ -18,4 +18,4 @@ export class QrDonateClient extends Plugin {
   }
 }
 
-export default QrDonateClient;
+export default VietqrNocobaseClient;

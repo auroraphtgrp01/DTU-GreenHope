@@ -1,7 +1,7 @@
 import { Plugin } from '@nocobase/server';
 import Router from 'koa-router';
 
-export class QrDonateServer extends Plugin {
+export class VietqrNocobaseServer extends Plugin {
   router: Router<any, any>;
   async afterAdd() {
     this.router = new Router();
@@ -59,14 +59,6 @@ export class QrDonateServer extends Plugin {
       }
     });
   }
-
-  // async install() {}
-
-  // async afterEnable() {}
-
-  // async afterDisable() {}
-
-  // async remove() {}
 }
 
-export default QrDonateServer;
+export default VietqrNocobaseServer;

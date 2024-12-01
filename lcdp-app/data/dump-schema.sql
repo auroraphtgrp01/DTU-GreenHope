@@ -5,7 +5,7 @@
 -- Dumped from database version 16.4
 -- Dumped by pg_dump version 16.4
 
--- Started on 2024-12-01 07:07:17 UTC
+-- Started on 2024-12-01 07:46:33 UTC
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -2578,7 +2578,6 @@ COPY public."applicationPlugins" (id, "createdAt", "updatedAt", name, "packageNa
 56	2024-11-23 04:24:07.353+00	2024-11-23 04:24:07.353+00	@olp-dtu-2024/test-thoi-ne	@olp-dtu-2024/test-thoi-ne	\N	\N	\N	\N	\N
 58	2024-11-23 12:31:03.183+00	2024-11-23 12:35:31.067+00	@olp-dtu-2024/get-new-transaction	@olp-dtu-2024/get-new-transaction	0.1.0	t	t	\N	\N
 60	2024-11-24 02:22:23.996+00	2024-11-24 02:31:01.606+00	@olp-dtu-2024/client-page	@olp-dtu-2024/client-page	0.1.0	t	t	\N	\N
-57	2024-11-23 05:14:56.752+00	2024-11-23 05:16:17.712+00	@olp-dtu-2024/qr-donate	@olp-dtu-2024/qr-donate	0.1.0	t	t	\N	\N
 50	2024-11-22 08:42:36.455+00	2024-11-24 13:49:14.928+00	field-markdown-vditor	@nocobase/plugin-field-markdown-vditor	1.3.52	f	t	\N	\N
 61	2024-11-24 03:34:37.804+00	2024-11-24 03:35:12.479+00	@olp-dtu-2024/ui	@olp-dtu-2024/ui	0.1.0	t	t	\N	\N
 59	2024-11-23 15:30:20.12+00	2024-11-25 05:45:43.086+00	@olp-dtu-2024/landing-page	@olp-dtu-2024/landing-page	0.1.0	t	t	\N	\N
@@ -2586,6 +2585,7 @@ COPY public."applicationPlugins" (id, "createdAt", "updatedAt", name, "packageNa
 67	2024-11-29 18:21:11.386+00	2024-11-29 18:23:11.444+00	@olp-dtu-2024/carousel-nocobase	@olp-dtu-2024/carousel-nocobase	0.1.0	t	t	\N	\N
 68	2024-11-29 18:40:03.216+00	2024-11-29 18:42:18.26+00	@olp-dtu-2024/header-picker-nocobase	@olp-dtu-2024/header-picker-nocobase	0.1.0	t	t	\N	\N
 69	2024-11-30 13:23:30.877+00	2024-11-30 13:25:57.597+00	@olp-dtu-2024/progress-nocobase	@olp-dtu-2024/progress-nocobase	0.1.0	t	t	\N	\N
+70	2024-12-01 07:10:20.333+00	2024-12-01 07:36:06.009+00	@olp-dtu-2024/vietqr-nocobase	@olp-dtu-2024/vietqr-nocobase	0.1.0	t	t	\N	\N
 \.
 
 
@@ -6191,6 +6191,7 @@ COPY public.executions (id, "createdAt", "updatedAt", key, "eventKey", context, 
 18	2024-11-23 10:44:46.637+00	2024-11-23 10:44:47.756+00	tbhf0n5k4ba	6f57b07a-a6b3-4f6f-8e8e-f6477b04971f	{"data":{"createdAt":"2024-11-23T10:44:05.704Z","updatedAt":"2024-11-23T10:44:46.561Z","name":"dseww","description":"sdgdsfgwvsfgs","construction_site":"fwef","id":9,"status":"APPROVED","is_deleted":0,"createdById":1,"updatedById":1,"createdBy":{"id":1,"nickname":"Super Admin","username":"nocobase","email":"admin@nocobase.com","phone":null,"password":"cb9f202d91599a21382c42be46ee032487d7ad26dd17d17f3b827a8cb07174f8","appLang":null,"resetToken":null,"systemSettings":{},"createdAt":"2024-11-22T08:42:38.679Z","updatedAt":"2024-11-22T08:42:38.679Z","sort":1,"createdById":null,"updatedById":null}}}	-1	16
 20	2024-11-23 10:53:47.76+00	2024-11-23 10:53:48.421+00	gyc7yynd5w0	aa670944-d977-428f-9c7b-00884090fb80	{"data":{"createdAt":"2024-11-23T10:53:32.680Z","updatedAt":"2024-11-23T10:53:47.700Z","name":"dfsf3qwrqwe","description":"dsfdsgđsfa","construction_site":"3e3qfsdfasdvas","id":10,"status":"APPROVED","is_deleted":0,"createdById":1,"updatedById":1,"createdBy":{"id":1,"nickname":"Super Admin","username":"nocobase","email":"admin@nocobase.com","phone":null,"password":"cb9f202d91599a21382c42be46ee032487d7ad26dd17d17f3b827a8cb07174f8","appLang":null,"resetToken":null,"systemSettings":{},"createdAt":"2024-11-22T08:42:38.679Z","updatedAt":"2024-11-22T08:42:38.679Z","sort":1,"createdById":null,"updatedById":null}}}	1	18
 33	2024-11-29 20:13:20.368+00	2024-11-29 20:13:20.994+00	07lrf76z5ab	af22db29-536f-461a-91c0-79d18ec8c9c0	{"data":{"createdAt":"2024-11-29T20:13:03.294Z","updatedAt":"2024-11-29T20:13:20.272Z","name":"fdfggdfg","description":null,"construction_site":"gfdsdfg","id":23,"status":"APPROVED","is_deleted":0,"createdById":1,"updatedById":1,"createdBy":{"id":1,"nickname":"Super Admin","username":"nocobase","email":"admin@nocobase.com","phone":null,"password":"cb9f202d91599a21382c42be46ee032487d7ad26dd17d17f3b827a8cb07174f8","appLang":null,"resetToken":null,"systemSettings":{"themeId":5},"createdAt":"2024-11-22T08:42:38.679Z","updatedAt":"2024-11-25T06:09:25.389Z","sort":1,"createdById":null,"updatedById":null}}}	1	22
+34	2024-12-01 07:37:21.055+00	2024-12-01 07:37:21.653+00	07lrf76z5ab	ebf8b13d-b6ea-4a20-b044-be24313e76b6	{"data":{"createdAt":"2024-12-01T07:37:14.511Z","updatedAt":"2024-12-01T07:37:20.975Z","name":"hghf","description":"fg","construction_site":"t","id":24,"status":"APPROVED","is_deleted":0,"createdById":1,"updatedById":1,"createdBy":{"id":1,"nickname":"Super Admin","username":"nocobase","email":"admin@nocobase.com","phone":null,"password":"cb9f202d91599a21382c42be46ee032487d7ad26dd17d17f3b827a8cb07174f8","appLang":null,"resetToken":null,"systemSettings":{"themeId":5},"createdAt":"2024-11-22T08:42:38.679Z","updatedAt":"2024-11-25T06:09:25.389Z","sort":1,"createdById":null,"updatedById":null}}}	1	22
 \.
 
 
@@ -6473,6 +6474,10 @@ COPY public.jobs (id, "createdAt", "updatedAt", "executionId", "nodeId", "nodeKe
 101	2024-11-29 20:13:20.652+00	2024-11-29 20:13:20.652+00	33	67	mf435tyq0zj	100	1	{"createdAt":"2024-11-29T20:13:20.591Z","updatedAt":"2024-11-29T20:13:20.591Z","id":27,"name":"fdfggdfg","total_amount":0,"construction_site":"gfdsdfg","is_deleted":0,"sub_title":null,"createdById":null,"updatedById":null,"createdBy":null,"fund_id":null}
 102	2024-11-29 20:13:20.756+00	2024-11-29 20:13:20.756+00	33	68	purpjsbvaog	101	1	{"is_deleted":0,"id":25,"name":"fdfggdfg","project_id":27,"target_amount":0,"current_amount":0,"updatedAt":"2024-11-29T20:13:20.707Z","createdAt":"2024-11-29T20:13:20.707Z","createdById":null,"updatedById":null,"description":null,"qr_code_url":null}
 103	2024-11-29 20:13:20.806+00	2024-11-29 20:13:20.949+00	33	71	dryirmt6df0	102	1	{"status":200,"statusText":"OK","headers":{"x-powered-by":"Express","vary":"Origin, Accept-Encoding","access-control-allow-credentials":"true","x-request-id":"c19149e9-891d-4215-8494-86eff649b0f9","content-type":"application/json; charset=utf-8","content-length":"234","date":"Fri, 29 Nov 2024 20:13:20 GMT","connection":"close","x-real-url":"http://127.0.0.1:13001/api/qr-donate"},"config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":5000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.26.1","Content-Length":50},"url":"http://localhost:13000/api/qr-donate","method":"post","params":{},"data":"{\\"fund_id\\":25,\\"fund_name\\":\\"fdfggdfg\\",\\"user_id\\":\\"\\"}"},"data":{"success":true,"message":"Tạo mã QR chuyển tiền thành công.","data":"https://img.vietqr.io/image/970436-1017142420-FFiaBLN.jpg?addInfo=Dong%20gop%20quy%20fdfggdfg","meta":{"fund_id":25,"fund_name":"fdfggdfg","user_id":null}}}
+104	2024-12-01 07:37:21.22+00	2024-12-01 07:37:21.22+00	34	66	dl3c184o658	\N	1	true
+105	2024-12-01 07:37:21.331+00	2024-12-01 07:37:21.331+00	34	67	mf435tyq0zj	104	1	{"createdAt":"2024-12-01T07:37:21.276Z","updatedAt":"2024-12-01T07:37:21.276Z","id":29,"name":"hghf","total_amount":0,"construction_site":"t","is_deleted":0,"sub_title":null,"description":null,"createdById":null,"updatedById":null,"createdBy":null,"fund_id":null}
+106	2024-12-01 07:37:21.434+00	2024-12-01 07:37:21.434+00	34	68	purpjsbvaog	105	1	{"is_deleted":0,"id":26,"name":"hghf","project_id":29,"target_amount":0,"current_amount":0,"updatedAt":"2024-12-01T07:37:21.386Z","createdAt":"2024-12-01T07:37:21.386Z","createdById":null,"updatedById":null,"description":null,"qr_code_url":null}
+107	2024-12-01 07:37:21.485+00	2024-12-01 07:37:21.603+00	34	71	dryirmt6df0	106	1	{"status":200,"statusText":"OK","headers":{"x-powered-by":"Express","vary":"Origin, Accept-Encoding","access-control-allow-credentials":"true","x-request-id":"0e4054b5-7a52-408a-b37e-2a2649f9bd20","content-type":"application/json; charset=utf-8","content-length":"226","date":"Sun, 01 Dec 2024 07:37:21 GMT","connection":"close","x-real-url":"http://127.0.0.1:13001/api/qr-donate"},"config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":5000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"axios/0.26.1","Content-Length":46},"url":"http://localhost:13000/api/qr-donate","method":"post","params":{},"data":"{\\"fund_id\\":26,\\"fund_name\\":\\"hghf\\",\\"user_id\\":\\"\\"}"},"data":{"success":true,"message":"Tạo mã QR chuyển tiền thành công.","data":"https://img.vietqr.io/image/970436-1017142420-FFiaBLN.jpg?addInfo=Dong%20gop%20quy%20hghf","meta":{"fund_id":26,"fund_name":"hghf","user_id":null}}}
 \.
 
 
@@ -6519,6 +6524,7 @@ COPY public.projects ("createdAt", "updatedAt", id, "createdById", "updatedById"
 2024-11-25 06:57:02.948+00	2024-12-01 05:39:57.769+00	25	1	1	Dự án 1	12000000	Đà Nẵng	0	\N	\N
 2024-11-29 20:13:20.591+00	2024-12-01 05:50:59.893+00	27	\N	1	Xây dựng cầu treo	120000000	gfdsdfg	0	Theo lãnh đạo xã Trà Tập, đợt mưa trước đó đã gây sạt lở ta-luy dương sau trường. Do đó, chính quyền địa phương đã cho đóng cửa điểm trường trên, dời lớp học ...	<p><strong>Thông tin chi tiết</strong></p><p>Theo lãnh đạo xã Trà Tập, đợt mưa trước đó đã gây sạt lở ta-luy dương sau trường. Do đó, chính quyền địa phương đã cho đóng cửa điểm trường trên, dời lớp học về điểm trường cũ (bằng gỗ), chờ phương án xây dựng kè phía sau. Tuy nhiên, đợt mưa này tiếp tục gây sạt lở khiến điểm trường bị sập.</p><p>Được biết, điểm trường Răng Chuối mới khánh thành hồi tháng 9 với tổng kinh phí xây dựng hơn 1,4 tỉ đồng, do một nhà tài trợ tại TP HCM hỗ trợ toàn bộ chi phí.</p><p>Công trình có tổng diện tích gần 200m², tường xây kiên cố, 2 phòng học, 1 phòng ở tập thể, bếp ăn, khu vệ sinh, sân chơi, tường rào</p><p>Điểm trường có 35 học sinh mầm non và tiểu học. Ngôi trường mới đưa vào sử dụng thay thế điểm trường tạm vốn đã xuống cấp.</p><p>Ngoài điểm trường Răng Chuối bị thiệt hại, tại huyện Nam Trà My những ngày qua trời mưa lớn kéo dài khiến nhiều điểm sạt lở tuyến đường bị đứt gãy, hư hỏng nặng.</p><p>Huyện Nam Trà My đã chỉ đạo các địa phương cắm biển báo nguy hiểm và cắm biển cấm xe tải trọng lớn, chỉ đạo đơn vị duy tu bảo vệ kè tạm để đảm bảo giao thông xe tải nhỏ và xe ô tô con lưu thông.</p>
 2024-12-01 06:25:41.475+00	2024-12-01 06:25:41.475+00	28	1	1	Dự án thứ 23	245000000	Quảng Trị dấu yêu	0	\N	\N
+2024-12-01 07:37:21.276+00	2024-12-01 07:37:21.276+00	29	\N	\N	hghf	0	t	0	\N	\N
 \.
 
 
@@ -6534,6 +6540,7 @@ COPY public.proposes ("createdAt", "updatedAt", id, "createdById", "updatedById"
 2024-11-24 02:36:39.231+00	2024-11-24 02:36:50.863+00	21	1	1	AAAA	fdfd	Hà Nội	APPROVED	0
 2024-11-24 02:43:51.285+00	2024-11-24 02:43:58.247+00	22	1	1	bbbbdf	fdf	fd	APPROVED	0
 2024-11-29 20:13:03.294+00	2024-11-29 20:13:20.272+00	23	1	1	fdfggdfg	\N	gfdsdfg	APPROVED	0
+2024-12-01 07:37:14.511+00	2024-12-01 07:37:20.975+00	24	1	1	hghf	fg	t	APPROVED	0
 \.
 
 
@@ -17324,7 +17331,7 @@ COPY public.verifications_providers (id, "createdAt", "updatedAt", title, type, 
 COPY public.workflows (id, "createdAt", "updatedAt", key, title, enabled, description, type, "triggerTitle", config, executed, "allExecuted", current, sync, options) FROM stdin;
 12	2024-11-23 08:33:04.685+00	2024-11-23 09:09:45.259+00	okdlz4mlk8m	Pre-Delete Project	t	\N	collection	\N	{"mode": 2, "appends": ["fund_id"], "changed": ["is_deleted"], "condition": {"$and": [{"fund_id": {"current_amount": {"$gt": 0}}}, {"is_deleted": {"$eq": 0}}]}, "collection": "projects"}	3	3	t	f	{}
 11	2024-11-23 07:06:06.908+00	2024-11-23 08:55:36.67+00	iib4y9voya1	Pre-Delete Project	f	\N	collection	\N	{"mode": 2, "appends": ["updatedBy", "fund_id", "createdBy"], "changed": ["is_deleted"], "condition": {"$and": [{"fund_id": {"current_amount": {"$eq": 0}}}]}, "collection": "projects"}	6	6	t	f	{"deleteExecutionOnStatus": []}
-22	2024-11-23 11:49:01.633+00	2024-11-29 20:13:20.423+00	07lrf76z5ab	Approve Propose	t	\N	collection	\N	{"mode": 2, "appends": ["createdBy"], "changed": ["status"], "condition": {"$and": []}, "collection": "proposes"}	9	9	t	f	{}
+22	2024-11-23 11:49:01.633+00	2024-12-01 07:37:21.113+00	07lrf76z5ab	Approve Propose	t	\N	collection	\N	{"mode": 2, "appends": ["createdBy"], "changed": ["status"], "condition": {"$and": []}, "collection": "proposes"}	10	10	t	f	{}
 \.
 
 
@@ -17343,7 +17350,7 @@ SELECT pg_catalog.setval('public."apiKeys_id_seq"', 1, false);
 -- Name: applicationPlugins_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."applicationPlugins_id_seq"', 69, true);
+SELECT pg_catalog.setval('public."applicationPlugins_id_seq"', 70, true);
 
 
 --
@@ -17415,7 +17422,7 @@ SELECT pg_catalog.setval('public."dataSourcesRolesResources_id_seq"', 1, false);
 -- Name: executions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.executions_id_seq', 33, true);
+SELECT pg_catalog.setval('public.executions_id_seq', 34, true);
 
 
 --
@@ -17433,7 +17440,7 @@ SELECT pg_catalog.setval('public.flow_nodes_id_seq', 71, true);
 -- Name: funds_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.funds_id_seq', 25, true);
+SELECT pg_catalog.setval('public.funds_id_seq', 26, true);
 
 
 --
@@ -17460,7 +17467,7 @@ SELECT pg_catalog.setval('public.images_id_seq', 1, false);
 -- Name: jobs_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.jobs_id_seq', 103, true);
+SELECT pg_catalog.setval('public.jobs_id_seq', 107, true);
 
 
 --
@@ -17469,7 +17476,7 @@ SELECT pg_catalog.setval('public.jobs_id_seq', 103, true);
 -- Name: projects_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.projects_id_seq', 28, true);
+SELECT pg_catalog.setval('public.projects_id_seq', 29, true);
 
 
 --
@@ -17478,7 +17485,7 @@ SELECT pg_catalog.setval('public.projects_id_seq', 28, true);
 -- Name: proposes_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.proposes_id_seq', 23, true);
+SELECT pg_catalog.setval('public.proposes_id_seq', 24, true);
 
 
 --
@@ -18732,7 +18739,7 @@ CREATE INDEX verifications_provider_id ON public.verifications USING btree ("pro
 CREATE UNIQUE INDEX workflows_key_current ON public.workflows USING btree (key, current);
 
 
--- Completed on 2024-12-01 07:07:17 UTC
+-- Completed on 2024-12-01 07:46:33 UTC
 
 --
 -- PostgreSQL database dump complete
