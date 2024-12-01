@@ -58,6 +58,15 @@
       "@olp-dtu-2024/progress-nocobase": [
         "packages/plugins/@olp-dtu-2024/progress-nocobase/src"
       ],
+      "@olp-dtu-2024/rich-block-nocobase/client": [
+        "packages/plugins/@olp-dtu-2024/rich-block-nocobase/src/client"
+      ],
+      "@olp-dtu-2024/rich-block-nocobase/package.json": [
+        "packages/plugins/@olp-dtu-2024/rich-block-nocobase/package.json"
+      ],
+      "@olp-dtu-2024/rich-block-nocobase": [
+        "packages/plugins/@olp-dtu-2024/rich-block-nocobase/src"
+      ],
       "@olp-dtu-2024/vietqr-nocobase/client": [
         "packages/plugins/@olp-dtu-2024/vietqr-nocobase/src/client"
       ],

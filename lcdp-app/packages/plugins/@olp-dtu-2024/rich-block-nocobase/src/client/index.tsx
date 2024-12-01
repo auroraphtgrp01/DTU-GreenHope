@@ -7,7 +7,7 @@ import { InfoField } from './schema/infoItem';
 import { headerTypeSettings } from './settings/items/headerType';
 import { HeaderPickerBlock } from './component/HeaderPickerBlock';
 
-export class HeaderPickerNocobaseClient extends Plugin {
+export class RichBlockNocobaseClient extends Plugin {
   async afterAdd() {
     // await this.app.pm.add()
   }
@@ -33,4 +33,4 @@ export class HeaderPickerNocobaseClient extends Plugin {
   }
 }
 
-export default HeaderPickerNocobaseClient;
+export default RichBlockNocobaseClient;

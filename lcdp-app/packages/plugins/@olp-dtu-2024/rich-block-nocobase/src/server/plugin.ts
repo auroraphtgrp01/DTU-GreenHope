@@ -1,6 +1,6 @@
 import { Plugin } from '@nocobase/server';
 
-export class HeaderPickerNocobaseServer extends Plugin {
+export class RichBlockNocobaseServer extends Plugin {
   async afterAdd() {}
 
   async beforeLoad() {}
@@ -16,4 +16,4 @@ export class HeaderPickerNocobaseServer extends Plugin {
   async remove() {}
 }
 
-export default HeaderPickerNocobaseServer;
+export default RichBlockNocobaseServer;

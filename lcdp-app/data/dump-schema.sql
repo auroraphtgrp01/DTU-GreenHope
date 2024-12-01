@@ -5,7 +5,7 @@
 -- Dumped from database version 16.4
 -- Dumped by pg_dump version 16.4
 
--- Started on 2024-12-01 07:46:33 UTC
+-- Started on 2024-12-01 08:08:20 UTC
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -2583,9 +2583,9 @@ COPY public."applicationPlugins" (id, "createdAt", "updatedAt", name, "packageNa
 59	2024-11-23 15:30:20.12+00	2024-11-25 05:45:43.086+00	@olp-dtu-2024/landing-page	@olp-dtu-2024/landing-page	0.1.0	t	t	\N	\N
 54	2024-11-22 08:43:33.991+00	2024-11-28 01:46:15.614+00	@olp-dtu-2024/kafka-nocobase	@olp-dtu-2024/kafka-nocobase	1.0.1	t	t	\N	\N
 67	2024-11-29 18:21:11.386+00	2024-11-29 18:23:11.444+00	@olp-dtu-2024/carousel-nocobase	@olp-dtu-2024/carousel-nocobase	0.1.0	t	t	\N	\N
-68	2024-11-29 18:40:03.216+00	2024-11-29 18:42:18.26+00	@olp-dtu-2024/header-picker-nocobase	@olp-dtu-2024/header-picker-nocobase	0.1.0	t	t	\N	\N
 69	2024-11-30 13:23:30.877+00	2024-11-30 13:25:57.597+00	@olp-dtu-2024/progress-nocobase	@olp-dtu-2024/progress-nocobase	0.1.0	t	t	\N	\N
 70	2024-12-01 07:10:20.333+00	2024-12-01 07:36:06.009+00	@olp-dtu-2024/vietqr-nocobase	@olp-dtu-2024/vietqr-nocobase	0.1.0	t	t	\N	\N
+71	2024-12-01 07:51:40.84+00	2024-12-01 08:04:10.461+00	@olp-dtu-2024/rich-block-nocobase	@olp-dtu-2024/rich-block-nocobase	0.1.0	t	t	\N	\N
 \.
 
 
@@ -17350,7 +17350,7 @@ SELECT pg_catalog.setval('public."apiKeys_id_seq"', 1, false);
 -- Name: applicationPlugins_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."applicationPlugins_id_seq"', 70, true);
+SELECT pg_catalog.setval('public."applicationPlugins_id_seq"', 71, true);
 
 
 --
@@ -18739,7 +18739,7 @@ CREATE INDEX verifications_provider_id ON public.verifications USING btree ("pro
 CREATE UNIQUE INDEX workflows_key_current ON public.workflows USING btree (key, current);
 
 
--- Completed on 2024-12-01 07:46:33 UTC
+-- Completed on 2024-12-01 08:08:20 UTC
 
 --
 -- PostgreSQL database dump complete
